@@ -1,0 +1,36 @@
+.status{
+  margin-top:20px;
+}
+
+.table-wrapper{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.table{
+  width: 100%;
+  max-width: 420px;
+}
+.table tr, td{
+  text-align: left;
+  padding-right: 10px;
+}
+
+.table td .item-complete {
+  text-decoration: line-through;
+}
+
+.table td span{
+  cursor: pointer;
+}
+
+.table td span:hover{
+  color: #3374CA;
+  text-decoration: line-through;
+}
